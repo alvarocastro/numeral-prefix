@@ -1,0 +1,36 @@
+{
+  "name": "numeral-prefix",
+  "version": "0.0.0-development",
+  "description": "Library to generate greek-derived numeral prefixes from a plain number",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarocastro/numeral-prefix.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "greek",
+    "numeral",
+    "prefix",
+    "polygon",
+    "polyhedron"
+  ],
+  "author": "Alvaro Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarocastro/numeral-prefix/issues"
+  },
+  "homepage": "https://github.com/alvarocastro/numeral-prefix#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "coveralls": "^3.1.0",
+    "nyc": "^15.1.0",
+    "semantic-release": "^17.3.1",
+    "xo": "^0.37.1"
+  }
+}
