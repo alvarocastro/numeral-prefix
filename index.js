@@ -176,11 +176,11 @@ const numeralPrefix = function (number, suffix = '') {
 		.reverse();
 
 	let result = '';
-	numbers.forEach((n, i) => {
+	for (const [i, n] of numbers.entries()) {
 		if (n > 0) {
 			result = transforms[i](result, numbers, number);
 		}
-	});
+	}
 
 	return result + suffix;
 };
